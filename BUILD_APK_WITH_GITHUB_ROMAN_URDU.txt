@@ -1,0 +1,19 @@
+AZKAR & DUAIN APK BANANE KA TAREEQA (Roman Urdu)
+
+Is project mein 32 duaaon ki PDF app ke andar bundled hai. APK install hone ke baad PDF offline khulni chahiye.
+
+APK online build karne ke liye:
+1. github.com par account banayein/sign in karein.
+2. New repository banayein, naam: azkar-duain-app
+3. Is ZIP ko extract karein. Andar ka AzkarDuainAndroid folder kholein.
+4. Is folder ke ANDAR ki tamam files/folders repository mein upload karein (app, build.gradle, settings.gradle, .github waghera).
+5. GitHub par Actions tab kholein. Agar prompt aaye to workflows enable karein.
+6. "Build Azkar & Duain APK" workflow select karke "Run workflow" dabayein.
+7. Build complete hone par workflow run kholein, neeche Artifacts se "Azkar-Duain-APK" download karein.
+8. ZIP artifact extract karein. app-debug.apk milegi.
+9. APK WhatsApp par Document ke taur par share karein. Receiver ko APK install karni hogi; install ke baad app offline chalegi.
+
+Note:
+- APK install karne ke liye receiver ko Android par installation permission allow karni par sakti hai.
+- Yeh debug APK hai, Play Store release ke liye signed release build alag se chahiye.
+- GitHub upload/build ke waqt internet chahiye; install ke baad bundled PDF offline hai.
